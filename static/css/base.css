@@ -60,7 +60,7 @@ body {
     background: #925B4F !important;
 }
 
-/* -------------------------------- Media Queries */
+/* Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
