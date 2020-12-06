@@ -1,0 +1,143 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Embrace",
+      "description": "This work is inspired by the touch of hands when you are embracing your loved one.",
+      "price": 100.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "embrace.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Forehead Kisses",
+      "description": "Minimalist and soft lines depict a forehead kiss.",
+      "price": 47.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "forehead-kisses.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "Dance With Me",
+      "description": "That moment that the world stops spinning when two lovers dance.",
+      "price": 45.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "dance-with-me.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "Stand by Me",
+      "description": "Behind every strong man, stands a strong woman. ",
+      "price": 111.99,
+      "category": 1,
+      "rating": 3,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "stand-by-me.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "Woman Crew",
+      "description": "This work is inspired by women empowering each other, friendship and unity.",
+      "price": 73.99,
+      "category": 1,
+      "rating": 5,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "woman-crew.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "Three Is a Crowd",
+      "description": "This work represents the diversity of a woman’s personality.",
+      "price": 55.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "three-is-a-crowd.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "Lay Down",
+      "description": "A celebration of female sensuality and shape.",
+      "price": 59,
+      "category": 2,
+      "rating": 4.4,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "lay-down.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002601115",
+      "name": "Pose",
+      "description": "A minimalist line-drawing of a woman in a strong pose.",
+      "price": 40.99,
+      "category": 2,
+      "rating": 4.5,
+      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+      "image": "pose.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002690715",
+      "name": "Vulnerable",
+      "description": "Woman in a caring embrace.",
+      "price": 43.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+      "image": "vulnerable.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002701115",
+      "name": "Faces in the Crowd",
+      "description": "A double line-drawing of a face.",
+      "price": 59.99,
+      "category": 2,
+      "rating": 4.4,
+      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
+      "image": "faces-in-the-crowd.jpg"
+    }
+  }
+  
+]

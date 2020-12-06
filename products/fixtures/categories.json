@@ -1,0 +1,19 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "love and friendship",
+      "friendly_name": "Love & Friendship"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "femininity collection",
+      "friendly_name": "Femininity & Collection"
+    }
+  }
+ 
+]
