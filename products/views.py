@@ -3,8 +3,9 @@ from .models import Product
 
 # Create your views here.
 
+
 def all_products(request):
-    """ SEE all products, including sorting and search queries """
+    """ SEE all products, sorting and search queries """
 
     products = Product.objects.all()
 
