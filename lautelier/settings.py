@@ -47,8 +47,8 @@ INSTALLED_APPS = [
     'bag',                          # added apps below
     'checkout',                     # added apps below
 
-# other added apps below
-    'crispy_forms',
+
+    'crispy_forms',  # other added apps below
 ]
 
 MIDDLEWARE = [
@@ -76,11 +76,11 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # required by allauth
+                'django.template.context_processors.request',  # required allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
-                'bag.contexts.bag_contents',  # access any time through out the whole site
+                'bag.contexts.bag_contents',  # access
             ],
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
@@ -89,7 +89,6 @@ TEMPLATES = [
         },
     },
 ]
-# --Authentication
 
 AUTHENTICATION_BACKENDS = [
 
@@ -99,7 +98,6 @@ AUTHENTICATION_BACKENDS = [
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
-# -- end
 
 SITE_ID = 1
 
@@ -176,3 +174,5 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
