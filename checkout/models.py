@@ -29,7 +29,7 @@ class Order(models.Model):
         """
         return uuid.uuid4().hex.upper()
 
-    def update_total(self):
+    def update_total(self):  # call each time a line item is attached to order!
         """
         Update grand total each time a line item is added,
         accounting for delivery costs.
