@@ -4,7 +4,7 @@ from .models import Order, OrderLineItem
 
 class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem
-    readonly_fields = ('lineitem_total',) # read only 
+    readonly_fields = ('lineitem_total',)  # read only
 
 
 class OrderAdmin(admin.ModelAdmin):
@@ -12,7 +12,7 @@ class OrderAdmin(admin.ModelAdmin):
 
     readonly_fields = ('order_number', 'date',
                        'delivery_cost', 'order_total',
-                       'grand_total',)          # will be calculated by the model
+                       'grand_total',)  # will be calculated by the model
 
     fields = ('order_number', 'date', 'full_name',
               'email', 'phone_number', 'country',
