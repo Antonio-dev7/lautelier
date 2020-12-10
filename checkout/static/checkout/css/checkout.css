@@ -28,3 +28,13 @@
 .stripe-style-input::placeholder {
     color: grey;
 }
+
+select,
+select option {
+    color: #925B4F;
+}
+
+select:invalid,
+select option[value=""] {
+    color:#aab7c4 !important;
+}
